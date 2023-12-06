@@ -31,6 +31,8 @@ Installation usually take 2-3 hours.
 Instructions
 The demo data set are genome aligned .sam files (the typical output of the Bowtie1 aligner) of an IP (IP_demo.sam) and one total translatome (total_demo.sam). Both files contain 100.000 reads. Scripts are numberd 0-6, corresponding to the respective output demo files.
 
+note that the cluster file output is usually > 100MB and can not be stored in this repository
+
 Expected output
 See files with the corresponding number in the demo folder
 
