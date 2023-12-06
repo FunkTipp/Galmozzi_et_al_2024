@@ -1,11 +1,11 @@
 ﻿List of scripts
 * 0_assignment.py (read assignment to open reading frames an RPKM / RPM calculation)
-* 1_CI_calc.py (Confidence Interval calculation)
-* 2_onset.py (Calculation of chaperone onsets)
-* 3_metagene.py (Calculation and plotting of Metagene profiles of chaperone enrichments)
+* 1_CI_calc.py (confidence interval calculation)
+* 2_onset.py (calculation of chaperone onsets)
+* 3_metagene.py (calculation and plotting of metagene profiles of chaperone enrichments)
 * 4_cluster.py (DTW based hierarchical substrate clustering)
-* 5_domains.py (parser for obtaining CATH annotated domain from the FunFHMMer web server, based on the gene amino acid sequence)
-* 6_model.py (Alphafold data extraction and calculation of Chaperone binding Model predictions)
+* 5_domains.py (obtaining CATH annotated domain from the FunFHMMer web server, based on the gene amino acid sequence)
+* 6_model.py (alphafold data extraction and calculation of chaperone binding predictions)
 
 Reference files
 * E. coli MC4100 CDS reference (NZ_HG738867.1.gff3)
@@ -29,9 +29,7 @@ Installation usually take 2-3 hours.
 
 3. Demo
 Instructions
-The demo data set are genome aligned .sam files (the typical output of the Bowtie1 aligner) of an IP (IP_demo.sam) and one total translatome (total_demo.sam). Both files contain 100.000 reads. Scripts are numberd 0-6, corresponding to the respective output demo files.
-
-note that the cluster file output is usually > 100MB and can not be stored in this repository
+The demo data set are genome aligned .sam files (the typical output of the Bowtie1 aligner) of an IP (IP_demo.sam) and one total translatome (total_demo.sam). Both files contain 100.000 reads. Scripts are numberd 0-6, corresponding to the respective output demo files. Note that the cluster file output is usually > 100MB and can not be stored in this repository
 
 Expected output
 See files with the corresponding number in the demo folder
