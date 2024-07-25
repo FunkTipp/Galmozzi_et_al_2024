@@ -5,7 +5,8 @@
 * 3_metagene.py (calculation and plotting of metagene profiles of chaperone enrichments)
 * 4_cluster.py (DTW based hierarchical substrate clustering)
 * 5_domains.py (obtaining CATH annotated domain from the FunFHMMer web server, based on the gene amino acid sequence)
-* 6_model.py (alphafold data extraction and calculation of chaperone binding predictions)
+* 6_folding_model.py (alphafold data extraction and calculation of chaperone binding predictions assuming nascent chain folding)
+* 7_molten_globule_model.py (alphafold data extraction and calculation of chaperone binding predictions assuming formation of a molten globule)
 
 Reference files
 * E. coli MC4100 CDS reference (NZ_HG738867.1.gff3)
