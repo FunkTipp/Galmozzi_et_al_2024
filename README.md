@@ -1,3 +1,5 @@
+Code for "Proteome-wide determinants of co-translational chaperone binding in bacteria" Galmozzi et al 2025, Nature Communications
+
 List of scripts
 * 0_assignment.py (read assignment to open reading frames an RPKM / RPM calculation)
 * 1_CI_calc.py (confidence interval calculation)
