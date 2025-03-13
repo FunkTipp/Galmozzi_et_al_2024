@@ -177,7 +177,7 @@ for g_count, (gene, contacts_length) in enumerate(contact_maps_out.items()):
 		last_emerged = ts-30
 		if last_emerged < 0:
 			continue
-		#get emerged residue saturation
+		#get emerged residue saturation#
 		residue_mat = res_saturation(contact_map, last_emerged)
 		if len(residue_mat[:, 0]) == 0:
 			continue
